@@ -4,19 +4,15 @@ import BlogTheme from "@sairinjs/sairin-theme-minimal";
 
 export default {
   siteConfig: {
-    title: 'Sairin'
+    title: 'CyanSalt'
   },
   theme: BlogTheme,
   themeConfig: {
-    title: `Sairin`,
+    title: 'CyanSalt',
     links: [
       {
         title: "GitHub",
-        url: "https://github.com/djyde/sairin",
-      },
-      {
-        title: "Twitter",
-        url: "https://twitter.com/randyloop",
+        url: "https://github.com/CyanSalt",
       },
     ],
   },

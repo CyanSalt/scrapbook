@@ -1,7 +1,3 @@
-# Sairin Starter
+# Scrapbook
 
-This is a starter template for Sairin.
-
-## Config
-
-Edit your theme config on `theme.config.ts`
+https://scrapbook-cyansalt.vercel.app
