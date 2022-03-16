@@ -2,3 +2,10 @@
   white-space: pre-wrap;
   overflow-wrap: break-word;
 }
+
+menu, ol, ul {
+  list-style: revert;
+  margin-bottom: 1rem;
+  padding-left: 1.5em;
+  line-height: 2;
+}
