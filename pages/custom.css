@@ -1,0 +1,4 @@
+.post-body blockquote p {
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
