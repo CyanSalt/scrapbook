@@ -3,6 +3,10 @@
   overflow-wrap: break-word;
 }
 
+.post-body pre {
+  overflow-x: auto;
+}
+
 menu, ol, ul {
   list-style: revert;
   margin-bottom: 1rem;
