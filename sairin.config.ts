@@ -4,11 +4,11 @@ import BlogTheme from "@sairinjs/sairin-theme-minimal";
 
 export default {
   siteConfig: {
-    title: 'CyanSalt'
+    title: 'CyanSalt\'s Scrapbook'
   },
   theme: BlogTheme,
   themeConfig: {
-    title: 'CyanSalt',
+    title: 'CyanSalt\'s Scrapbook',
     links: [
       {
         title: "GitHub",
