@@ -7,6 +7,10 @@
   overflow-x: auto;
 }
 
+.post-body hr {
+  margin: 1rem 0;
+}
+
 menu, ol, ul {
   list-style: revert;
   margin-bottom: 1rem;
