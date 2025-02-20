@@ -15,6 +15,26 @@
   margin: 1rem 0;
 }
 
+.post-body td {
+  padding: 6px 12px;
+}
+
+.post-body td img {
+  margin: 0;
+}
+.post-body :is(h1, h2, h3, h4, h5, h6) + p > img {
+    margin-top: 0;
+}
+.post-body p:has(+ :is(h1, h2, h3, h4, h5, h6)) > img, .post-body p:last-child > img {
+    margin-bottom: 0;
+}
+.post-body p:has(+ p > img:first-child) > img {
+    margin-bottom: 0;
+}
+.post-body p:has(> img:first-child) + p > img {
+    margin-top: 0;
+}
+
 menu, ol, ul {
   list-style: revert;
   margin-bottom: 1rem;
